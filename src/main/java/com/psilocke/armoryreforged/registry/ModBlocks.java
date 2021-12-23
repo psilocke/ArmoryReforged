@@ -19,15 +19,7 @@ public class ModBlocks {
 		)
 	);
 	
-	public static final RegistryObject<Block> REFORGE_FURNACE_MULTIBLOCK_SHELL = register("reforge_furnace_multiblock_shell", () ->
-			new Block(Block.Properties.of(Material.STONE)
-					.strength(1,10)
-					.requiresCorrectToolForDrops()
-					.sound(SoundType.STONE)
-			)
-	);
-	
-	public static final RegistryObject<Block> REFORGE_FURNACE_MULTIBLOCK_CORE = register("reforge_furnace_multiblock_core", () ->
+	public static final RegistryObject<Block> BLAST_BRICK_BLOCK = register("blast_brick_block", () ->
 			new Block(Block.Properties.of(Material.STONE)
 					.strength(1,10)
 					.requiresCorrectToolForDrops()

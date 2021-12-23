@@ -28,9 +28,9 @@ public class Registration {
     public static final DeferredRegister<RecipeSerializer<?>> RECIPE_SERIALIZERS = create(ForgeRegistries.RECIPE_SERIALIZERS);
     public static final DeferredRegister<BlockEntityType<?>> TILE_ENTITIES = create(ForgeRegistries.BLOCK_ENTITIES);
     
-	public static final CreativeModeTab MOD_CREATIVE_TAB = (new CreativeModeTab(0, "armoryreforged_tab") {
+	public static final CreativeModeTab MOD_CREATIVE_TAB = (new CreativeModeTab(-1, "armoryreforged_tab") {
 		public ItemStack makeIcon() {
-			return new ItemStack(ModBlocks.REFORGE_FURNACE_BLOCK.get());
+			return new ItemStack(ModItems.REFORGE_HAMMER.get());
 		}
 	});
 
