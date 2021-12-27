@@ -1,6 +1,6 @@
 package com.psilocke.armoryreforged.registry;
 
-public class ModTileEntityTypes {
+public class ModBlockEntityTypes {
 
 	public static void register() {
 		// TODO Auto-generated method stub
