@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "armoryreforged:block/reforge_furnace_block"
+  }
+}

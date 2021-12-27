@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "armoryreforged:block/reforge_furnace_block"
+    }
+  }
+}
