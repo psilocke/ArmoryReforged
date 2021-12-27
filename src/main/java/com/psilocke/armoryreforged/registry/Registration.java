@@ -46,7 +46,7 @@ public class Registration {
         ModContainerTypes.register();
         ModItems.register();
         ModRecipes.register();
-        ModTileEntityTypes.register();
+        ModBlockEntityTypes.register();
     }
     
     private static <T extends IForgeRegistryEntry<T>> DeferredRegister<T> create(IForgeRegistry<T> registry) {
