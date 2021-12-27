@@ -14,10 +14,7 @@ public class ModBlockStateProvider extends BlockStateProvider {
 
 	@Override
 	protected void registerStatesAndModels() {
-		horizontalBlock(ModBlocks.REFORGE_FURNACE_BLOCK.get(), 
-				modLoc("block/blast_furnace_side"), 
-				modLoc("block/blast_furnace_front"), 
-				modLoc("block/blast_furnace_top"));
+		simpleBlock(ModBlocks.REFORGE_FURNACE_BLOCK.get());
 		simpleBlock(ModBlocks.BLAST_BRICK_BLOCK.get());
 	}
 }
