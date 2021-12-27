@@ -46,6 +46,7 @@ public class ModLootTableProvider extends LootTableProvider {
         @Override
         protected void addTables() {
             dropSelf(ModBlocks.REFORGE_FURNACE_BLOCK.get());
+            dropSelf(ModBlocks.BLAST_BRICK_BLOCK.get());
         }
 
         @Override
