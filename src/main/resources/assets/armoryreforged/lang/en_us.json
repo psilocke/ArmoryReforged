@@ -1,10 +1,10 @@
 {
-	"item.armoryreforged.reforge_hammer": "Reforge Hammer",
-	"item.armoryreforged.grout": "Grout",
-	"item.armoryreforged.blast_brick": "Blast Brick"
+	"item.armoryreforged.reforge_hammer":"Reforge Hammer",
+	"item.armoryreforged.grout":"Grout",
+	"item.armoryreforged.blast_brick": "Blast Brick",
 	
-	"block.armoryreforged.blast_brick_block": "Blast Brick Block"
-	"block.armoryreforged.reforge_furnace_block": "Reforge Furnace"
+	"block.armoryreforged.blast_brick_block":"Blast Brick Block",
+	"block.armoryreforged.reforge_furnace_block":"Reforge Furnace",
 	
-	"itemGroup.armoryreforged.armoryreforged_tab": "Armory Reforged"
+	"itemGroup.armoryreforged_tab":"Armory Reforged"
 }
