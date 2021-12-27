@@ -16,10 +16,7 @@ public class ModItemModelProvider extends ItemModelProvider {
     @Override
     protected void registerModels() {
         withExistingParent("blast_brick_block", modLoc("block/blast_brick_block"));
-        orientable("reforge_furnace_block", 
-				modLoc("block/blast_furnace_side"), 
-				modLoc("block/blast_furnace_front"), 
-				modLoc("block/blast_furnace_top"));
+        withExistingParent("reforge_furnace_block", modLoc("block/reforge_furnace_block"));
 
         ModelFile itemGenerated = getExistingFile(mcLoc("item/generated"));
         
