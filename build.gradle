@@ -49,7 +49,7 @@ minecraft {
         data {
             workingDirectory project.file('run')
 			
-            args '--mod', 'riftbound', '--all',
+            args '--mod', 'armoryreforged', '--all',
 				'--existing', file('src/main/resources').toString(),
 				'--existing', file('src/generated/resources').toString(),
 				'--output', file('src/generated/resources')
