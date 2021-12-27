@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:blasting",
+  "ingredient": {
+    "item": "armoryreforged:grout"
+  },
+  "result": "armoryreforged:blast_brick",
+  "experience": 0.7,
+  "cookingtime": 200
+}
