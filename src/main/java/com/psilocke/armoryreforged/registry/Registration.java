@@ -45,7 +45,6 @@ public class Registration {
         ModBlocks.register();
         ModContainerTypes.register();
         ModItems.register();
-        ModRecipes.register();
         ModBlockEntityTypes.register();
     }
     
